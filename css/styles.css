@@ -1,0 +1,6 @@
+.container img {
+    width: 40%;
+    height: 60vh;
+    border-radius:4px;
+    box-sizing: border-box;
+}
