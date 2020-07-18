@@ -20,4 +20,9 @@ h1 {
     background-color: blue;
     font-size: 30px;
     padding-left:10px;
+    transition-duration: 0.4s;
+ }
+button:hover {
+     background-color:rgb(108, 108, 155);
+     color: white;
  }
