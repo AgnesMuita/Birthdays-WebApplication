@@ -3,4 +3,21 @@
     height: 60vh;
     border-radius:4px;
     box-sizing: border-box;
+    padding-bottom: 23px;
 }
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 70, 119);  
+}
+.container p {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+.container form {
+    font-size: 30px;
+}
+.container button {
+    background-color: blue;
+    font-size: 30px;
+    padding-left:10px;
+ }
