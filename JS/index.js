@@ -28,3 +28,16 @@ function validation() {
     else {
         return true;
     }
+
+}
+function calculateDayValue (){
+    year = document.getElementById("Year").value;
+    CC = parseInt(year.substring(0,1));
+    YY = parseInt(year.substring(2,3));
+    MM = parseInt(year.getElementById("Month").value);
+    DD = parseInt (year.getElementById("date").value);
+    d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
+    console.log (d);
+    return (Math.floor(d));
+}
+
