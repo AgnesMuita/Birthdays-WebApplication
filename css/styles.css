@@ -16,10 +16,11 @@ h1 {
 .Form {
     font-size: 25px;
     width: 15px;
+    display: inline-flex;
 }
 .container button {
     background-color: blue;
-    font-size: 15px;
+    font-size: 25px;
     padding-left:10px;
     transition-duration: 0.4s;
  }
