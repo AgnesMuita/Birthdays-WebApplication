@@ -6,6 +6,7 @@ This web application allows users to discover their Akan names by submitting the
 "getGender();" function statements. 
 ## Setup/Installation Requirements
 The website is hosted on github pages and is accessible to users through the live link https://agnesmuita.github.io/Birthdays-WebApplication/
+Users are only required to submit their birth day, month, and year according to the directions provided in the forms, for the generation of their Akan names. 
 ## Technologies Used
 HTML
 CSS
