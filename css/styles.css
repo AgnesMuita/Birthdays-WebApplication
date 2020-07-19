@@ -21,6 +21,10 @@ h1 {
     display: inline-flex;
     padding: 20px;
 }
+.Form label {
+    display:block;
+    margin-bottom: 4px;
+}
 .container button {
     background-color: blue;
     font-size: 25px;
