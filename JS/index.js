@@ -27,7 +27,7 @@ function validation() {
         return false;
     }   
     else{
-      return true ;
+      return findName();
     }
     
   }
