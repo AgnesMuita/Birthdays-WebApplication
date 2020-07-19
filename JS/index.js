@@ -107,4 +107,4 @@ function validation() {
     dayValue = calculateDayValue();
     getGender();
   }
-  Birth
+  
