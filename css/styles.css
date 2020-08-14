@@ -1,19 +1,34 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container {
+    background-color: black;
+    max-width: 200%;
+    margin: 0;
+    padding-right: 0;
+}
 .container img {
-    width: 40%;
-    height: 60vh;
-    border-radius:4px;
+    width: 20%;
+    height: 30vh;
     box-sizing: border-box;
     padding-bottom: 23px;
     margin-top: auto;
 }
+.caption {
+    font-size: 10px;
+    color: white;
+}
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(70, 70, 119);  
+    color: white;  
     font-size: 40px;
 }
 .container p {
     font-family: 'Times New Roman';
-    font-size: 30px;
+    font-size: 15px;
+    color: white;
 }
 .Form {
     font-size: 25px;
@@ -22,16 +37,59 @@ h1 {
     padding: 20px;
 }
 .Form label {
-    display:block;
-    margin-bottom: 4px;
+    /* display:block; */
+    font-size: 15px;
+    color: white;
+}
+input[type=text] {
+    width: 300%;
+    font-size: 15px;
+}
+.gender {
+    color: white;
+    font-weight: 100;
+    display: inline;
 }
 .container button {
-    background-color: blue;
-    font-size: 25px;
+    font-size: 15px;
     padding-left:10px;
     transition-duration: 0.4s;
+    width: 300%;
  }
-button:hover {
+.container button:hover {
      background-color:rgb(108, 108, 155);
      color: white;
  }
+ /* .radio {
+     display: block;
+     position: relative;
+ }
+ .radio input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+ }
+ .checkmark {
+     position: absolute;
+     height: 20px;
+     width: 20px;
+     background-color: white;
+ }
+ .radio:hover input~.checkmark {
+     background-color: blue;
+ }
+ .radio input:checked ~.checkmark {
+     background-color: red;
+ }
+ .checkmark:after{
+     content:"";
+     position: absolute;
+     display: none;
+ }
+ .radio .checkmark:after {
+    background: white;
+    top: 9px;
+    left:9px;
+    bottom:8px;
+    right: 8px;
+ } */
