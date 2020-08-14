@@ -12,15 +12,15 @@
     <body>
         <div class= "container">
             <h1>Birthdays and Akan Names</h1>
-            <img src="Images/ghanian-child.jpg" alt="Ghanian children"><figcaption>Akan Child in Ghanian Culture Attire</figcaption>
+            <img src="Images/ghanian-child.jpg" alt="Ghanian children"><figcaption class="caption">Akan Child in Ghanian Culture Attire</figcaption>
             <br>   
             <p>Majority are already familiar with zodiac signs and the different ideations around them. To determine which star sign you are, you ought to find the zodiac that falls on your birthday. Just like some people believe that different signs of the zodiac reveal a person's different characteristics, so do Akan names in the Ghanian culture.The names have deeper meanings associated with the soul and the individual's character.</p> 
             <p>This application aims at generating Akan names for users. Entering the day, month, and year in which a user was born, as well as their gender will generate their Akan names. The application works by taking the user's birthday, and calculating the day of the week they were born. Depending on their gender, the application will output their Akan names through a prompt.For more details about Akan names, <a href= "https://fairafric.com/let-the-name-speak-the-deep-meaning-of-ghanaian-first-names">click here.</a></p>
             <p>Please fill out the form below to discover your Akan name.</p>
             <div class = "Form">
                 <form name="myForm" class="form" onsubmit="validation();">
-
-                    <label for="number">Year of Birth:</label>
+                    <form class="form-group" id="form-control">
+                    <label for="year">Year of Birth:</label>
                     <input type="text" name="year" id="year" placeholder="For example '1996'">
 
                     <label for="month">Month of Birth</label>
@@ -29,12 +29,19 @@
                     <label for="date">Date of Birth</label>
                     <input type="text" name="date" id="date" placeholder="For example '08'">
                 
-                    <label for="Gender">Gender</label>
-                    <input type="radio" name="gender" id="male">&nbsp;Male
-                    <input type="radio" name="gender" id="female">&nbsp;Female
+                    <label for="Gender" class="gender">Gender</label>
+                    <label class = "radio">Male
+                        <input type="radio" checked="checked" name="gender" id="male">
+                    </label>
+                    <label class = "radio">Female
+                        <input type="radio" checked="checked" name="gender" id="female">
+                    </label>
+                    <!-- <input type="radio" name="gender" id="male">&nbsp;Male
+                    <input type="radio" name="gender" id="female">&nbsp;Female -->
                     
-                    <button type="submit">Get Name</button>
+                    <button type="submit" class= "btn btn-success">Get Your Akan Name</button>
                     <br>  
+                    </form>
                 </form> 
             </div>
         </div>
